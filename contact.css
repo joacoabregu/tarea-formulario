@@ -1,0 +1,45 @@
+body {
+  background: url(https://rooftop.dev/images/contact-us-bg.jpg) no-repeat;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  color: #28323c;
+}
+
+.container {
+  max-width: 1200px;
+  display: grid;
+  place-items: center;
+  margin: 0 auto;
+}
+
+/* Header */
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2em 1em;
+}
+.header ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.header li {
+  list-style: none;
+  padding: 0em 1em;
+  font-weight: 500;
+}
+
+.header a {
+  color: #28323c;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+header .btn {
+  color: #fff;
+  background-color: #28323c;
+  padding: 0.3em 1.3em;
+  border-radius: 0.5em;
+}
+
+/* Main */
