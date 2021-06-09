@@ -7,8 +7,6 @@ body {
 
 .container {
   max-width: 1200px;
-  display: grid;
-  place-items: center;
   margin: 0 auto;
 }
 
@@ -43,3 +41,49 @@ header .btn {
 }
 
 /* Main */
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 5em;
+}
+.section--left {
+  width: 40%;
+}
+.section--left h1 {
+  font-weight: 500;
+  font-size: 3rem;
+}
+.section--left-subtitle {
+  margin-bottom: 1.5em;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+.section-card {
+  background-color: #fff;
+  padding: 2em;
+  display: flex;
+  flex-direction: row;
+
+  border-radius: 0.5em;
+  margin-bottom: 1em;
+}
+.section-card-txt {
+  margin-left: 0.5em;
+}
+.card-title {
+  font-weight: 700;
+}
+
+.card-title + p {
+  width: 70%;
+}
+
+.social-icons i {
+  background-color: rgba(0, 0, 0, 0.06);
+  padding: 0.8em;
+  border-radius: 0.5em;
+  margin-right: 0.3em;
+}
